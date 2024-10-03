@@ -42,15 +42,15 @@ Recommendation Model
 We implemented a K-Nearest Neighbors (KNN) model to build a collaborative filtering-based recommendation system.
 
 Steps:
-Utility Matrix: We created a utility matrix where rows represent users and columns represent movies, with the matrix values being the user ratings.
+Utility Matrix:I created a utility matrix where rows represent users and columns represent movies, with the matrix values being the user ratings.
 
-KNN Model: We applied KNN using cosine similarity to find similar users (neighbors) for a given user.
+KNN Model:I applied KNN using cosine similarity to find similar users (neighbors) for a given user.
 
-Recommendation: Based on the nearest neighbors' preferences, we recommended movies that the target user has not yet rated.
+Recommendation: Based on the nearest neighbors' preferences, I recommended movies that the target user has not yet rated.
 
 Key Features:
 
-Cosine Similarity: We used cosine similarity to measure the closeness between users.
+Cosine Similarity: I used cosine similarity to measure the closeness between users.
 
 Top-K Neighbors: The model identified the top 5 nearest neighbors for each user to generate recommendations.
 
