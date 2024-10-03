@@ -30,13 +30,13 @@ rating: The rating given by the user (from 0.5 to 5.0).
 timestamp: The timestamp when the rating was given.
 
 Exploratory Data Analysis (EDA)
-We performed EDA on the movies and ratings datasets to gain insights:
+I performed EDA on the movies and ratings datasets to gain insights:
 
 Rating Distribution: Most ratings are concentrated around 3 to 5 stars.
 
 Genre Popularity: The most common genres are Drama, Comedy, Thriller, and Romance.
 
-Basic Statistics: We calculated summary statistics like mean and standard deviation of user ratings and checked for missing values (none were found).
+Basic Statistics: I calculated summary statistics like mean and standard deviation of user ratings and checked for missing values (none were found).
 
 Recommendation Model
 We implemented a K-Nearest Neighbors (KNN) model to build a collaborative filtering-based recommendation system.
